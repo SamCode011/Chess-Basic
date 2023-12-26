@@ -46,8 +46,17 @@ const allSquares = document.querySelectorAll("#gameboard .square")
 
 allSquares.forEach(square => {
     square.addEventListener('dragstart',dragStart)
+    square.addEventListener('dragover',dragOver)
 })
-
-function dragStart () {
-    
+//position 
+let startPositionId
+let draggedElement
+function dragStart (e) {
+    console.log(e.target.parentNode.getAttribute('square-id'))
+    startPositionId=e.target.parentNode.getAttribute('square-id')
+    draggedElement = e.target
+}
+function dragOver(e) {
+    e.preventDefault()
+   /*  console.log(e.target) */
 }
