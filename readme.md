@@ -1,6 +1,4 @@
 ### Chess - Basic
-![](./img/ezgif.com-video-to-gif-converter.gif)
-
   ## Movement of the pieces -structure Js
 I share a part of the code based on the chess pieces movements
 ```sh
@@ -19,7 +17,7 @@ I share a part of the code based on the chess pieces movements
             }
             break;
 ```
-## CopyRight (c) 2020-2023 Ania Kubow-SamFlores
+## CopyRight (c) Ania Kubow-SamFlores
 
 This project is undertaken for educational and learning purposes, contributing to my professional development. I hope it serves as a guide for your personal projects and professional growth.
 
