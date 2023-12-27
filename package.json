@@ -1,5 +1,7 @@
-{
-    "language": "javascript"
-  }
 
-  
+{
+  "name": "chess-basic",
+  "version": "1.0.0",
+  "description": "My awesome project",
+  "language": "javascript"
+}
