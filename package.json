@@ -1,0 +1,8 @@
+{
+    "keywords": ["javascript"],
+    "main": "chess.js",
+    "scripts": {
+      "start": "node chess.js"
+    }
+  }
+  
