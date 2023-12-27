@@ -115,7 +115,24 @@ function checkIfValid(target) {
                 startId + width +1 === targetId && document.querySelector(`[square-id="${startId + width + 1}"]`).firstChild 
             ) {
                 return true
-        }}
+        }
+        break;
+        
+    case 'knight' :
+        if (
+            startId + width * 2 + 1 === targetId ||
+            startId + width * 2 - 1 === targetId ||
+            startId + width - 2  === targetId ||
+            startId + width + 2  === targetId ||
+            startId - width * 2 + 1 === targetId ||
+            startId - width * 2 - 1 === targetId ||
+            startId - width - 2  === targetId ||
+            startId - width + 2  === targetId 
+        ) {
+            return true
+        }
+        break ;
+    }
     }
 
 
