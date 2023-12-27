@@ -33,8 +33,10 @@ path {
     background-color: rgb(155, 131, 53);
 }
 .black {
-    fill: rgba(255, 255, 255, 0.726);
+   
+    fill : rgb(28,28,28)
 }
 .white {
-    fill : rgb(28,28,28)
+    fill: rgba(255, 255, 255, 0.726);
+    
 }
